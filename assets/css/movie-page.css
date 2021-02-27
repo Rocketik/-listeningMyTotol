@@ -1,0 +1,96 @@
+.movie-page{
+    display: flex;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 1s linear;
+}
+
+.movie-page_parent{
+    width: 1000px;
+}
+
+.movie-page_top{
+    height: 444px;
+    display: flex;
+    background-size: cover;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    justify-content: space-around;
+}
+
+.movie-page_top_poster{
+    background-color: #191515d9;
+    padding: 20px;
+    border-radius: 22px;
+}
+
+
+.movie-page_top_info{
+    max-width: 55%;
+    background-color: #191515d9;
+    padding: 20px;
+    border-radius: 22px;
+    min-height: 300px;
+}
+
+.film-data{
+    color:  #e94191;
+}
+
+.movie-page_top_info p{
+    margin-top: 20px;
+}
+.movie-page_bottom h1{
+    margin: 12.5px 0;
+}
+
+.acters,.videos{
+    display: flex;
+    overflow: auto;
+}
+.acters_item,.video_item{
+    margin-right: 20px;
+}
+
+.acters_item_elem p{
+    padding: 5px 0;
+    text-align: center;
+}
+
+.video_item{
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+}
+
+
+.video-player{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.blur{
+    filter: blur(10px);
+}
+
+.no-scroll{
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.back{
+    position: fixed;
+    right: 3vw;
+    top: 45vh;
+    font-family: monospace;
+    cursor: pointer;
+}
